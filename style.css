@@ -22,9 +22,52 @@ h2 {
     display: flex;
   }
   
-  .column {
+ /* .column {
     flex: 33.33%;
     padding: 5px;
     text-align: center;
   }
+    */
+    #gaming {
+        width: 300px; /* Specify the width */
+        height: 350px; /* Specify the height */
+        background-image: url('https://img.freepik.com/premium-photo/pink-number-1-fur-3d-element-render-typography-fluffy-style_811493-609.jpg'); /* Initial background image */
+        background-size: cover; /* Cover the entire area of the element */
+        transition: background-image 0.5s ease-in-out; /* Smooth transition */
+        flex: 33.33%;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #gaming:hover {
+        background-image: url('https://preview.redd.it/my-white-and-pink-for-now-pc-gaming-setup-this-one-is-for-v0-cv2sti4vxmga1.jpg?width=1080&crop=smart&auto=webp&s=aefdfdc3f42c7a41060587e6e4d6025545eade61'); /* Change on hover */
+    }
+    #reading {
+        width: 300px; /* Specify the width */
+        height: 350px; /* Specify the height */
+        background-image: url('https://img.freepik.com/premium-photo/pink-number-2-fur-3d-element-render-typography-fluffy-style_811493-610.jpg'); /* Initial background image */
+        background-size: cover; /* Cover the entire area of the element */
+        transition: background-image 0.5s ease-in-out; /* Smooth transition */
+        flex: 33.33%;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #reading:hover {
+        background-image: url('https://www.timeforkids.com/wp-content/uploads/2021/05/210524_CMS_Debate_Hero.jpg'); /* Change on hover */
+    }
+    #traveling {
+        width: 300px; /* Specify the width */
+        height: 350px; /* Specify the height */
+        background-image: url('https://img.freepik.com/premium-photo/pink-number-3-fur-3d-element-render-typography-fluffy-style_811493-611.jpg?w=360'); /* Initial background image */
+        background-size: cover; /* Cover the entire area of the element */
+        transition: background-image 0.5s ease-in-out; /* Smooth transition */
+        flex: 33.33%;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #traveling:hover {
+        background-image: url('https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/450921190_18452127931023942_7451537835457021456_n.jpg?stp=dst-jpegr&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DWYjsfo7m_4Q7kNvgE_TSxj&se=-1&_nc_ht=scontent-lax3-2.xx&oh=00_AYAqciCSv5_jnjB4CHoQ4lmmH8Ftt3102oVCQqQZg8SRBw&oe=66A5EE39'); /* Change on hover */
+    }
   
