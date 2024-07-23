@@ -1,7 +1,30 @@
 body {
-    background: #e0ffcd;
+    background: #f48db4;
   }
 h1 {
-    color: #ffcab0;
+    color: #c9356c;
     text-align: center;
 }
+h3 {
+    color: #fafafa;
+    text-align: center;
+    font-style: italic;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+h2 {
+    color: #ff347f;
+    text-align: center;
+    text-decoration: underline;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+  
