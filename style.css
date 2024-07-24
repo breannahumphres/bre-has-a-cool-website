@@ -249,3 +249,15 @@ h2 {
         background-image: url('https://stickymangorice.com/wp-content/uploads/2019/06/conflicting-copy-croissant.jpg'); /* Change on hover */
     }
 
+    label {
+        display: block;
+      }
+      
+      p {
+        margin: 0;
+        height: 20px;
+      }
+      
+      h4 {
+        margin: 10px 0 0 0;
+      }
